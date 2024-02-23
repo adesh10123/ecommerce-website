@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="">
+    </div>
+    
+    <header>
+        <h1>Our Products</h1>
+    </header>
+    <main id="product-list">
+        <!-- Products will be listed here by JavaScript -->
+    </main>
+    <input type="text" id="search-input" placeholder="Search products...">
+
+    <aside id="shopping-cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button id="checkout-btn">Checkout</button>
+        <input type="text" id="discount-code" placeholder="Discount Code">
+        <button id="apply-discount">Apply Discount</button>
+
+    </aside>
+    <script src="script.js"></script>
+
+<div id="live-chat">
+    <textarea id="chat-messages" readonly style="width:100%; height:200px;"></textarea>
+    <input type="text" id="chat-input" placeholder="Type your message..." style="width:calc(100% - 60px);">
+    <button id="send-message">Send</button>
+</div>
+
+</body>
+</html>
